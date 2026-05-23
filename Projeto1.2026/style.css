@@ -26,70 +26,61 @@ nav{
 
  nav a{ color: rgb(225, 255, 255); /*links ficam brancos*/
     text-decoration: none; /*none tira a decoração do sublinha*/
-    font-size: 1.2rem; 
-    transition: 0.3s; /*cria leve animação*/
+    font-size: 1.2rem; /* tamanho dda LETRA*/
+    transition: 0.3s; /*cria leve animação juntamente comm hoover*/
 }
 
 nav a:hover{
     color: rgb(131, 169, 226); /* nav especial, fica azul quando o mause passa por cima */
 }
 
-.banner{
+.banner{ /* Seleciona a classe "banner" */
     text-align: lift;
-
     color: rgb(225, 255, 255);
-
-    margin-top: 20rem;
-}
-
-/* Título */
-.banner h1{
-    font-size: 4rem;
-    color: rgb(225, 255, 255);
+    margin-top: 20rem; /* Empurra o banner para baixo ou seja dá um espaço acima*/
 }
 
 section{
-    width:80%;
-    margin:auto;
-    margin-top: 60px;
+    width:80%; /* A seção ocupa 80% da tela */
+    margin:auto; /* Centraliza a section*/
+    margin-top: 60px; /* Empurra o banner para baixo ou seja dá um espaço acima */
 }
 
 main h2{
     color:#174fbe;
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 40px; /* Deixa espaço abaixo do elemento "h2"*/
 
 }
 h3{
-    color:#174fbe;
+    color:#174fbe; /*Todos os h3 do site ficam azuis*/
 }
 
 p{
-    font-size: 20px;
-    line-height: 1.7;
+    font-size: 20px; /* Tamanho da letra de todos os parágrafos*/
+    line-height: 1.7; /* Dá um espaçamento entre as linhas. sem isso o texto fica grudado*/
 }
 
-.bloco-historia{
-    display: flex;
-    align-items:center;
-    gap: 30xp;
+.bloco-historia{ /* Seleciona a classe do bloco história*/
+    display: flex; /* Deixa a imagem e o texto lado a lado. sem o flez ficaria um em baixo do outro*/
+    align-items:center; /* Centraliza os itens verticalmente. texto e imagem alinhados no meio */
+    gap: 30xp; /* Cria espaço entre texto e imagem*/
 
-    width:80%;
-    margin:auto;
-    margin-bottom: 40px;
+    width:80%; /* O bloco ocupa 805 da tela*/
+    margin:auto; /* O bloco tbm está centralizado (está no meio) */
+    margin-bottom: 40px; /* Cria um espaço abaixo do bloco*/
 
-
-}
-.bloco-historia img{
-    width: 300px;
-    height: 180px;
-    object-fit: cover;
-
-    border-radius: 15px;
 
 }
+.bloco-historia img{ /* imagens do bloco*/
+    width: 300px; /* Largura do bloco, ou seja, ocupa 300px na tela*/
+    height: 180px; /* altura da imagem*/
+    object-fit: cover; /* Faz a imagem prencher o espaço sem ficar deformada. Sem isso a imagem pode ficar deformada*/
+    border-radius: 15px; /* Bordas arredondadas*/
 
-.bloco-cultura{
+}
+
+.bloco-cultura{ /* Todos os blocos a seguir, incluindo esse, tem a mesma lógica e conceito do bloco de história */
     display: flex;
     align-items:center;
     gap: 30xp;
@@ -169,14 +160,45 @@ p{
 
 }
 
-table{
-    width: 300px;
-    border-collapse: collapse;
-    margin: 20px auto;
+table{ /* Seleciona a tabela inteira */
+    width: 300px; /* Largura da tabela */
+    border-collapse: collapse; /* Junta as bordas da tabela, sem isso as bordas ficam duplas*/
+    margin: 20px auto; /* Deixa a tabela cetralizada*/
+    font-size: 18px;
 }
 
-td{
-    border: 1px solid black;
-    padding:10px;
-    text-align: center;
+td{ /* Seleciona as células da tabela*/
+    border: 1px solid black; /* Cria a borda com 1px, linha contínua e preta*/
+    padding:10px; /* cria espaço INTERNO*/
+    text-align: center; /* Centraliza o texto dentro da célula*/
+}
+
+ol{
+    width: fit-content; /* Largura será apenas o necessário para caber o conteúdo*/
+    margin: auto; /* Centrliza a lista*/
+    margin-top: 25px; /* Espaço acima da lista*/
+    text-align: left; /* Texto  alinhado na esquerda*/
+    font-size: 20px; /* Tamanho do texto da lista */
+}
+
+li{
+    color:#000000;
+    margin: 15px;/* Cria espaço externo em todos os lados */
+}
+
+ol li::marker{ /* Marker seleciona apenas o número da lista */
+    color:#174fbe;
+}
+
+.voltar-topo{
+   color:rgb(25, 0, 168);
+   text-decoration: none; /* Remove o sublinhado*/
+   display: inline; /* Display define como o elemento se comporta. nesse caso ele está na linha*/
+   margin-top: 20px;
+   transition: 0,3; /* Animação simples */
+   text-align: center; /* Alinha no cenrtro */
+}
+
+.voltar-topo:hover{
+   color:#174fbe; /* Faz o link ficar azul quando o mouse passa por cima */
 }
