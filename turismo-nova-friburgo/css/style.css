@@ -1,0 +1,55 @@
+* {margin: 0%;}
+
+body{
+    font-family: 'Times New Roman', Arial, serif;
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+}
+
+h1 {color:rgb(15, 15, 71);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2{
+    color:blue;
+
+}
+
+p{font-size: 20px;}
+
+header{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+nav ul{ 
+    display: flex; /*Deixa os itens lado a lado */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* centraliza*/
+    gap: 2rem; /*Espaço no flex */
+ }
+
+ nav a{ color: blue; /*links ficam brancos*/
+    text-decoration: none; /*none tira a decoração do sublinha*/
+    font-size: 1.2rem; /* tamanho dda LETRA*/
+    transition: 0.3s; /*cria leve animação juntamente comm hoover*/
+}
+
+nav a:hover{
+    color: rgb(15 , 15 , 71); /* nav especial, fica azul quando o mause passa por cima */
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin:auto;
+    border-radius: 30px;
+}
