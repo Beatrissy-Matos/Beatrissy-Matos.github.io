@@ -1,9 +1,15 @@
-* {margin: 0%;}
+* {margin: 0;}
 
 body{
     font-family: 'Times New Roman', Arial, serif;
     background-color: rgb(219, 219, 219);
     text-align: center;
+}
+
+main{
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 h1 {color:rgb(15, 15, 71);
@@ -13,10 +19,23 @@ h1 {color:rgb(15, 15, 71);
 
 h2{
     color:blue;
-
+    margin-bottom: 15px;
 }
 
-p{font-size: 20px;}
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+img { 
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:20px auto;
+    border-radius: 20px;
+}
 
 header{
     height: 100px;
@@ -31,7 +50,6 @@ nav ul{
     display: flex; /*Deixa os itens lado a lado */
     list-style: none;
     padding: 0;
-    margin: 0;
     justify-content: center; /* centraliza*/
     gap: 2rem; /*Espaço no flex */
  }
@@ -46,10 +64,46 @@ nav a:hover{
     color: rgb(15 , 15 , 71); /* nav especial, fica azul quando o mause passa por cima */
 }
 
-img { 
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin:auto;
-    border-radius: 30px;
+main ul{
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 20px;
+    text-align:left;
+}
+li{
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+
+strong {
+    color: rgb(15 , 15 , 71);
+}
+footer p{
+    text-align: center;
+}
+
+ol {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 20px;
+    text-align:left;
+}
+
+ol li {
+     margin-bottom: 10px;
+    list-style-position: inside;
+}
+
+table{ /* Seleciona a tabela inteira */
+    width: 80%; /* Largura da tabela */
+    max-width: 12000px;
+    border-collapse: collapse; /* Junta as bordas da tabela, sem isso as bordas ficam duplas*/
+    margin: 20px auto; /* Deixa a tabela cetralizada*/
+    font-size: 18px;
+}
+
+td{ /* Seleciona as células da tabela*/
+    border: 1px solid black; /* Cria a borda com 1px, linha contínua e preta*/
+    padding:10px; /* cria espaço INTERNO*/
+    text-align: center; /* Centraliza o texto dentro da célula*/
 }
