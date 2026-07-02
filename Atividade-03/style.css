@@ -40,10 +40,7 @@ header ul{
     list-style: none ;
 }
 
-header li{
-     padding: 5px 10px;
-}
- header li: :first-child;
+ header li: :first-child,
  header li:hover{
      background-color: rgb(228, 91, 113);
  }
