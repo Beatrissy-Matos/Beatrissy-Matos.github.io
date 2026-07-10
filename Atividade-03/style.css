@@ -4,7 +4,7 @@
 }
 
 header, footer{
-    background-color: lab(15.36% 22.59 11.71);
+    background-color: lab(5.68% 21.66 8.11);
     color: white;
 }
 
@@ -14,13 +14,11 @@ h1{
    padding: 80px;
 }
 
-
 header p {
     text-align: center;
     font-size:.8em;
     margin-bottom:80px ;
 }
-
 
 header a{
     color: white;
@@ -56,7 +54,7 @@ h2{
 
 .laranja {
     background-color: rgb(216, 93, 11);
-    height: 300px;
+    height: 250px;
 }
 .branca {
     width: 100%;
