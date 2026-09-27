@@ -1,3 +1,35 @@
 *{
     margin:0%
 }
+
+body{
+    text-align:justify;
+    font-size: 20px;
+    background-color: rgb(252, 214, 168);
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+nav a:hover { /* pseudo seletor para quando o mouse passar por cima*/
+    background-color: rgb(240, 75, 130);
+    color: white;
+    border-radius: 5px;
+}
+
+header nav ul{
+    list-style: none; /* Tira a bolinha da lista */
+    display:flex; /* deixa os links lado a lado*/ 
+    justify-content: center;  /* centraliza o texto inteiro*/
+}
+
+header nav ul li{
+    margin: 0 15px;
+}
+
+.texto{
+    
+}
