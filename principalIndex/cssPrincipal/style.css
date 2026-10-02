@@ -1,7 +1,10 @@
-*{
-    margin:0%
+*{ margin:0 } 
+body{
+    font-size: 18px;
+    background-color: rgb(253, 230, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
-
 nav a{
     text-decoration: none;
     color: black;
@@ -9,21 +12,18 @@ nav a{
     font-family:'Times New Roman';
     font-size: 20px;
 }
-
 nav a:hover { /* pseudo seletor para quando o mouse passar por cima*/
     color: rgb(139, 0, 46);;
     font-family:'Times New Roman';
     font-size: 20px;
     border-bottom: 3px solid  rgb(240, 75, 130);
 }
-
 header nav ul{
     list-style: none; /* Tira a bolinha da lista */
     display:flex; /* deixa os links lado a lado*/ 
     justify-content: center;  /* centraliza o texto inteiro*/
     padding: 20px 0;
 }
-
 header nav ul li{
     margin: 0 15px;
 }
@@ -52,7 +52,6 @@ h1{
     text-align: center;
     text-shadow: 3px 3px 40px rgb(240, 75, 130);
 }
-
 h2{
     text-align: center;
     font-family: "Brush Script MT", cursive;
@@ -62,6 +61,10 @@ h2{
     margin-top: 0;
     font-size: 30px;
 }
+.texto{
+    width: 50%;
+    padding: 40px;
+}
 .texto h3{
     text-align: left;
     color: rgb(240, 75, 130);
@@ -69,26 +72,72 @@ h2{
     margin-top: 25px;
     margin-bottom: 5px;
 }
-
+.texto ul{
+    margin-top: 10px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+.texto li{
+    color: black; /* cor do texto da linha*/ 
+}
+.texto li::marker{ /* estiliza marcadores da lista: bolinhas e numeros*/
+    color: rgb(139, 0, 46);
+}
+.texto a{
+    text-decoration: none;
+    color: black;
+}
+.texto a:hover{
+    color: rgb(139, 0, 46);
+}
 header p{
     text-align: left;
+    line-height: 1.5; /* Da espaço entre as linhas*/
 }
 
-.texto{
-    width: 50%;
-    padding: 40px;
+strong{
+     color: rgb(139, 0, 46);
+}
+
+footer h3 {
+    text-align: left;
+    color: rgb(240, 75, 130);
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+footer{
+    text-align: left;
+    margin: 30px;
+}
+footer div p a{
+    text-decoration: none;
+    color: rgb(139, 0, 46);
+}
+footer p a:hover {
+    color: rgb(240, 75, 130);
+}
+.topo{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(139, 0, 46);
+}
+.topo:hover{
+    color: rgb(240, 75, 130);    
 }
 
 
 
 
 
-body{
-    font-size: 18px;
-    background-color: rgb(253, 230, 243);
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-main{
-    text-align:center;
+
+
+
+
+
+/*CSS DA PÁGINA DESIGN WEB: */
+.MainDesignWeb{
+   
 }
