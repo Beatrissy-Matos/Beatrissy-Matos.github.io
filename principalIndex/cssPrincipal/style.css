@@ -5,6 +5,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
+
+/* header*/
 nav a{
     text-decoration: none;
     color: black;
@@ -31,6 +33,7 @@ header section{
     display:flex;
     justify-content: space-between;
     align-items:flex-start;
+    margin-bottom: auto;
 }
 .foto{
     width: 40%;
@@ -42,15 +45,15 @@ header section{
     height: auto;
     display: block;
     border-radius: 10px;
-    border: 4px solid rgb(240, 75, 130);
-    box-shadow: 0 8px 30px rgb(240, 75, 130);
+    border: 3px solid rgb(240, 75, 130);
+    box-shadow: 5px 8px 25px rgb(139, 0, 46);
 }
 h1{
     color: rgb(240, 75, 130);
     font-size: 85px;
     font-family:'Times New Roman';
     text-align: center;
-    text-shadow: 3px 3px 40px rgb(240, 75, 130);
+    text-shadow: 3px 2px 3px rgb(139, 0, 46);
 }
 h2{
     text-align: center;
@@ -65,7 +68,7 @@ h2{
     width: 50%;
     padding: 40px;
 }
-.texto h3{
+h3{
     text-align: left;
     color: rgb(240, 75, 130);
     font-size: 30px;
@@ -99,6 +102,42 @@ strong{
      color: rgb(139, 0, 46);
 }
 
+/*Main Habilidades*/
+main section{
+    text-align: left;
+    margin: 40px;
+}
+.articleHabilidades{
+    display: flex;
+    justify-content: center;
+    
+}
+.articleHabilidades article{
+    border: 3px solid  rgb(240, 75, 130);
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(139, 0, 46);
+}
+.articleHabilidades article:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+h4{
+    color:rgb(139, 0, 46)
+}
+.articleHabilidades article span{
+    font-size: 14px;
+    color: rgb(139, 0, 46);
+}
+/*Main Objetivos*/
+#Objetivos{
+    text-align: left;
+
+}
+
+/* footer*/
 footer h3 {
     text-align: left;
     color: rgb(240, 75, 130);
@@ -126,14 +165,6 @@ footer p a:hover {
 .topo:hover{
     color: rgb(240, 75, 130);    
 }
-
-
-
-
-
-
-
-
 
 
 
