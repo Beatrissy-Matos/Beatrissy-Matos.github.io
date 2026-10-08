@@ -1,0 +1,49 @@
+/*corpo*/
+/*Obs: eu não preciso mais de todas essas classes, porque agora eu tenho um css para cada index */
+.CorpoDesignWeb{
+   text-align: left;
+   padding: 20px 40px;
+}
+.MainDesignWeb h1{
+    font-size: 65px;
+}
+.MainDesignWeb a{
+   text-decoration: none;
+   color: rgb(139, 0, 46);
+}
+.MainDesignWeb a:hover{
+    color:rgb(240, 75, 130);
+}
+.MainDesignWeb li::marker{ /* estiliza marcadores da lista: bolinhas e numeros*/
+    color:rgb(240, 75, 130);
+}
+.MainDesignWeb ul{
+    margin: 0;
+    padding: 0;
+   list-style-position: inside; 
+   margin-bottom: 25px;
+}
+.MainDesignWeb ol{
+    margin: 0;
+    padding: 0;
+   list-style-position: inside; 
+}
+.MainDesignWeb p span{
+    margin-top: 20px;
+    padding: 8px;
+    background-color: rgb(139, 0, 46);
+    border: 2px solid;
+    border-radius: 20px;
+    color: blanchedalmond;
+    font-size: 15px;
+    box-shadow: 0 3px 5px rgb(240, 75, 130);
+}
+footer{
+    margin-top: 5px;
+    padding-top: 20px;
+}
+footer span{
+    color: rgb(240, 75, 130);
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}

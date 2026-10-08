@@ -1,11 +1,3 @@
-*{ margin:0 } 
-body{
-    font-size: 18px;
-    background-color: rgb(253, 230, 243);
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-}
-/* header*/
 nav a{
     text-decoration: none;
     color: black;
@@ -36,7 +28,7 @@ header section{
 }
 .foto{
     width: 40%;
-    padding: 20px; /* espaço interno para naão encostar nas bordas*/
+    padding: 20px; /* espaço interno para não encostar nas bordas*/
     margin: auto;
 }
 .foto img {
@@ -47,33 +39,9 @@ header section{
     border: 3px solid rgb(240, 75, 130);
     box-shadow: 5px 8px 25px rgb(139, 0, 46);
 }
-h1{
-    color: rgb(240, 75, 130);
-    font-size: 85px;
-    font-family:'Times New Roman';
-    text-align: center;
-    text-shadow: 3px 2px 3px rgb(139, 0, 46);
-}
-h2{
-    text-align: center;
-    font-family: "Brush Script MT", cursive;
-    letter-spacing: 2px;
-    font-weight: normal;
-    color:rgb(139, 0, 46);
-    margin-top: 0;
-    font-size: 30px;
-}
 .texto{
     width: 50%;
     padding: 40px;
-}
-h3{
-    text-align: left;
-    color: rgb(240, 75, 130);
-    font-size: 32px;
-    margin-top: 25px;
-    margin-bottom: 5px;
-    font-family:'Times New Romam' ;
 }
 .texto ul{
     margin-top: 10px;
@@ -97,11 +65,6 @@ header p{
     text-align: left;
     line-height: 1.5; /* Da espaço entre as linhas*/
 }
-
-strong{
-     color: rgb(139, 0, 46);
-}
-
 /*Main Habilidades*/
 main section{
     text-align: left;
@@ -165,10 +128,4 @@ footer p a:hover {
 }
 .topo:hover{
     color: rgb(240, 75, 130);    
-}
-
-
-/*CSS DA PÁGINA DESIGN WEB: */
-.MainDesignWeb{
-   
 }
