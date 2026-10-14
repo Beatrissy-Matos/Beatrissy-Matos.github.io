@@ -58,7 +58,6 @@ h2{
    margin: 35px 0 0 30px;
    border-left: 5px solid #f2c500;
    padding-left: 12px;
-
 }
 .BlocoIntercalado{
     display: flex;
@@ -117,12 +116,82 @@ h2{
     margin-left: 25px;
 }
 /*GASTRONOMIA*/
+
 #Gastronomia img{
-    height: 230px;
-    width: 80%;
+    height: 255px;
+    width: 45%;
     object-fit: cover;/* nao deixa a imagem distorcer mas pode cortar os lados*/
+    object-position: contain;
     margin-left: 55px;
     border: 2px solid #174a6E;
     border-radius: 15px;
-    margin-bottom: 0;
+    margin-bottom: 15px;
+}
+#Gastronomia p{
+    text-align: justify;
+    padding: 25px;
+    font-size: 20px;
+    width: 90%;
+    line-height: 1.6; /* Dá espaço entre as linhas*/
+}
+#Gastronomia div p{
+    text-align: justify;
+    margin-top: 18px;
+    margin-right: 20px;
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.6; /* Dá espaço entre as linhas*/
+}
+#Gastronomia h3{
+    color: #174a6E;
+    font-size: 18px;
+    margin: 10px 0 5px 5px;
+    margin-left: 65px;
+    padding-bottom: 10px;
+}
+/*CULTURA*/
+#Cultura img{
+    height: 255px;
+    width:45%;
+    object-fit: cover;/* nao deixa a imagem distorcer mas pode cortar os lados*/
+    object-position: center 20%;
+    margin-left: 55px;
+    border: 2px solid #174a6E;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+#Cultura p{
+    text-align: justify;
+    padding: 25px;
+    font-size: 20px;
+    width: 90%;
+    line-height: 1.6; /* Dá espaço entre as linhas*/
+}
+#Cultura div p{
+    text-align: justify;
+    margin-top: 18px;
+    margin-right: 20px;
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.6; /* Dá espaço entre as linhas*/
+}
+#Cultura h3{
+    color: #174a6E;
+    font-size: 18px;
+    margin: 10px 0 5px 5px;
+    margin-left: 65px;
+    padding-bottom: 10px;
+}
+footer p{
+    display: block;
+    text-align: right;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: #174a6E;
+}
+footer a:hover{
+    color: #e49400;
 }
