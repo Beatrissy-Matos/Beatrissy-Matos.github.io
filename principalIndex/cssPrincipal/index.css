@@ -51,16 +51,6 @@ header section{
 .texto li{
     color: black; /* cor do texto da linha*/ 
 }
-.texto li::marker{ /* estiliza marcadores da lista: bolinhas e numeros*/
-    color: rgb(139, 0, 46);
-}
-.texto a{
-    text-decoration: none;
-    color: black;
-}
-.texto a:hover{
-    color: rgb(139, 0, 46);
-}
 header p{
     text-align: left;
     line-height: 1.5; /* Da espaço entre as linhas*/
@@ -100,6 +90,17 @@ h4{
 #Objetivos{
     text-align: left;
 
+}
+/*MAIN PROJETOS*/
+#Projetos li::marker{ /* estiliza marcadores da lista: bolinhas e numeros*/
+    color: rgb(139, 0, 46);
+}
+#Projetos a{
+    text-decoration: none;
+    color: black;
+}
+#Projetos a:hover{
+    color: rgb(139, 0, 46);
 }
 /* footer*/
 footer h3 {
