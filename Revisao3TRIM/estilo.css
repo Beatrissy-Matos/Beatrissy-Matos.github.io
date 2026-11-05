@@ -1,0 +1,60 @@
+/*PARTE 1*/
+
+.banner img {
+    width: 100%;
+    filter: grayscale(100%); /* grayscale deixa a imagem toda preta e branca */
+    transition: filter 0.5s ease; /* suaviza a mudança*/ /* ease faz a transição começar e terminar suave*/
+}
+
+.banner img:hover {
+    filter: grayscale(0%); /* recupera as cores originais */
+}
+.cards { 
+    display: flex; /* ativa o flexbox */
+    justify-content: center;  /* centraliza os elementos horizontalmente */
+    align-items: center; /* alinha os elementos verticalmente */
+    gap: 20px; /* cria espaço entre os cards */
+    flex-wrap: wrap ; /* deixa os cards quebrarem pra outra linha se necessário (quando a tela diminui) */
+} 
+.botao { 
+    background-color: #2457a6; 
+    transition: all 0.3s ease; /* suaviza a mudança */
+} 
+.botao:hover { 
+    background-color: #3879d8; /* altera a cor do botão*/
+    transform: scale(1.05); /*aumenta o botão em 5%*/
+}
+@keyframes pulsar { /* define as etapas da animação*/
+    0% { 
+    transform: scale(1); 
+    } 
+    50% { 
+    transform: scale(1.1); 
+    } 
+    100% { 
+    transform: scale(1); 
+    } 
+} 
+.destaque { 
+    animation: pulsar 2s infinite; /* 2s é a duração de cada ciclo*/
+}  
+.secao { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); /* repeat cria 3 colunas iguais*/
+} 
+/* 1fr ocupa uma fração do espaço disponível*/
+@media (max-width: 600px) /* aplica as mudançasquando a tela tiver até 600 pixels*/ 
+{ 
+    .secao { 
+    grid-template-columns: 1fr; /* deixa apenas uma coluna */
+    } 
+} 
+/*Questão 6:
+a) a tag usada é <main> conteúdo principal aqui dentro </main>
+b) a tag usada é <nav> links aqui dentro </nav>
+c) a classe usada no bootstrap é container
+d) a classe usada no bootstrap é row
+e) a classe usada no bootstrap col-md-6
+*/
+
+/*PARTE 2*/
