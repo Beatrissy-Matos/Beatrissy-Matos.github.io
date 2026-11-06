@@ -58,3 +58,97 @@ e) a classe usada no bootstrap col-md-6
 */
 
 /*PARTE 2*/
+
+/* base */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+/* modulo - card */
+.card-evento {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente e um embaixo do outro se necessário*/
+    width: 350px; /* Define largura */
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa os limites do elemento */
+    box-shadow: 0 4px 10px gray;
+    transition: transform 0.3s ease;
+}
+/* imagem */
+.card-evento img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Faz a imagem preencher o espaço sem deformar podendo cortar partes dela */
+    filter: grayscale(50%); /* filter aplica efeitos vizuais */
+    transition: filter 0.5s ease; /* suaviza a mudança do filtro grayscale */
+}
+
+/* hover */
+.card-evento:hover {
+    transform: translateY(-5px); /* move o elemneto 5px para cima */
+}
+
+.card-evento:hover img {
+    filter: grayscale(0%); /* retira o efeito preto e branco */
+}
+
+/* conteúdo */
+.conteudo {
+    padding: 20px;
+}
+
+.conteudo h2 {
+    color: #2457a6;
+}
+
+.conteudo p {
+    color: #555;
+    line-height: 1.5; /* define a distância entre as linhas do texto */
+}
+
+/* botão */
+.botao {
+    display: inline-block; /* permite definir características do elemento mantando ele na linha */
+    background-color: #2457a6;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* suaviza todas as propriedades que mudarem */
+}
+
+.botao:hover {
+    background-color: #3879d8;
+    transform: scale(1.05); /* aumenta o botão em 5% */
+}
+
+/* RESPONSIVIDADE!!!! */
+
+/* Para celulares: */
+@media (max-width: 600px) /* @media cria uma condição para aplicar os estilos conforme as características da tela */
+ /* aplica as regras em telas de até 600px */
+{
+    .card-evento {
+        width: 100%;
+        max-width: 350px; /* impede que o card ultrapasse 350px */
+    }
+}
+/* tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .card-evento {
+        width: 70%;
+        max-width: 500px;
+    }
+}
+/* computadores */
+@media (min-width: 1025px) {
+    .card-evento {
+        width: 500px;
+    }
+}
+
+/* PARTE 3 */
